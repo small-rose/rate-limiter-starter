@@ -23,7 +23,7 @@ public @interface ExceptionFallBack {
 
     /**
      *  允许执行降级的异常 默认是 RuntimeException 和 Error
-     *  写法类型 事务注解遇到某些异常会回滚
+     *  写法类型 参考spring事务注解遇到某些异常会回滚
      * @return
      */
     Class<? extends Throwable>[] fallbackFor() default {};
