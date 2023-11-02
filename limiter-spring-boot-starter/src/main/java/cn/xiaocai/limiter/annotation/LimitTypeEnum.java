@@ -19,11 +19,11 @@ public enum LimitTypeEnum {
     /**
      * 漏斗桶算法
      */
-    RateLimitLBL("leaky bucket"),
+    RateLimitLBL("leaky bucket limit"),
     /**
      * 令牌桶算法
      */
-    RateLimitTBL( "token bucket");
+    RateLimitTBL( "token bucket limit");
 
     private final String desc;
 
