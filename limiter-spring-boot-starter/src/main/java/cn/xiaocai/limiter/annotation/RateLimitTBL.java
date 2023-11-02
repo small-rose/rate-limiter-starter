@@ -7,7 +7,7 @@ import java.util.concurrent.TimeUnit;
 /**
  * @program: springboot-limiter
  * @description
- * @function:
+ * @function: 令牌桶 限流注解 TBL : Token Bucket Rate limiter
  * @author: zhangxiaocai
  * @create: 2021-05-21 22:17
  **/

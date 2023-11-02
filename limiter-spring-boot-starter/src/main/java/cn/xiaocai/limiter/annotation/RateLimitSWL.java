@@ -6,7 +6,7 @@ import java.util.concurrent.TimeUnit;
 
 /**
  * @program: springboot-limiter
- * TODO  滑动窗口限流注解，
+ * TODO  滑动窗口限流注解， SWL : Sliding Window Rate limiter
  * @function:
  * @author: zhangxiaocai
  * @create: 2021-05-18 12:34

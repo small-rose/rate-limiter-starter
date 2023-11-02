@@ -5,7 +5,7 @@ import java.util.concurrent.TimeUnit;
 
 /**
  * springboot-limiter
- * TODO 限流注解--固定时间窗口期 period 内限流  maxLimited
+ * TODO 限流注解-- LBL : Leaky Bucket Rate limiter
  * @author ZHANGXIAOCAI
  * @create: 2021-05-24 13:47
  */
