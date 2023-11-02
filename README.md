@@ -62,6 +62,27 @@ public @interface ExceptionFallBack {
 - 令牌桶算法
 - （令牌）漏斗算法
 
+```java
+
+public enum LimitTypeEnum {
+    /**
+     * 滑动窗口限流
+     */
+    RateLimitSWL("slided window limit"),
+    /**
+     * 固定时间窗口
+     */
+    RateLimitFCL("fixed count and period limit"),
+    /**
+     * 漏斗桶算法
+     */
+    RateLimitLBL("leaky bucket limit"),
+    /**
+     * 令牌桶算法
+     */
+    RateLimitTBL( "token bucket limit");
+}
+```
 #### 2.1、固定周期固定窗口算法
     
   - 原理:使用计数器在限定的固定周期内累加访问次数，当达到设定的限流值时，触发限流策略。下一个周期开始时，计数器清零，重新计数。
